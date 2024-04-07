@@ -1,0 +1,13 @@
+.footerSection{
+    background: var(--color-blue);
+    padding: .625rem 0;
+
+    .subSection{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        gap: 2rem;
+    }
+}

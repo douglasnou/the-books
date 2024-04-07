@@ -1,0 +1,38 @@
+%title{
+    font-family: var(--font-poppins);
+    font-weight: 700;
+    line-height: 1.4;
+}
+
+.title1{
+    @extend %title;
+    font-size: clamp(2rem, 5vw, 2.5rem);
+
+    &.white{
+        color: var(--color-white)
+    }
+}
+
+.title2{
+    @extend %title;
+    font-size: 1rem;
+}
+
+%paragraph{
+    font-family: var(--font-inter);
+    font-size: 1rem;
+    line-height: 1.4;
+}
+
+.paragraph1{
+    @extend %paragraph;
+    font-weight: 400;
+    &.white{
+        color: var(--color-white)
+    }
+}
+
+.paragraph2{
+    @extend %paragraph;
+    font-weight: 700;
+}

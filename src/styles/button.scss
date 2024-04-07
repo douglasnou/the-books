@@ -1,0 +1,33 @@
+%btn{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: .6rem;
+
+    height: 51px;
+    background: var(--color-blue);
+    border-radius: 8px;
+
+    color: var(--color-white);
+    font-family: var(--font-poppins);
+    font-size: 1rem;
+    font-weight: 700;
+
+    padding: 0 .9375rem;
+
+    &:hover{
+        filter: brightness(.8);
+        transition: 1s;
+    }
+}
+
+.btn-sm{
+    @extend %btn;
+    height: 43px;
+    position: relative;
+    right: 62px;
+}
+
+.btn-lg{
+    @extend %btn;
+}
